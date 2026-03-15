@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="gotham-noir" _name="Gotham Noir" version="1.0">
+  <author>Batman</author>
+  <_description>Pure monochromatic noir scheme for the Bat-computer</_description>
+
+  <color name="background"      value="#0D0D0D"/>
+  <color name="current-line"    value="#1A1A1A"/>
+  <color name="selection"       value="#333333"/>
+  <color name="foreground"      value="#D9D9D9"/>
+  <color name="comment"         value="#595959"/>
+  <color name="white"           value="#FFFFFF"/>
+  <color name="dark-grey"       value="#262626"/>
+  <color name="mid-grey"        value="#808080"/>
+  <color name="light-grey"      value="#B3B3B3"/>
+  <color name="bat-accent"      value="#F2F2F2"/>
+
+  <style name="text"                     foreground="foreground" background="background"/>
+  <style name="selection"                foreground="white" background="selection"/>
+  <style name="cursor"                   foreground="white"/>
+  <style name="secondary-cursor"         foreground="light-grey"/>
+  <style name="selection-unfocused"      foreground="background" background="mid-grey"/>
+  <style name="current-line"             background="current-line"/>
+  <style name="line-numbers"             foreground="mid-grey" background="background"/>
+  <style name="background-pattern"       background="background"/>
+  <style name="bracket-match"            foreground="white" background="dark-grey" bold="true"/>
+  <style name="bracket-mismatch"         foreground="white" background="mid-grey"/>
+  <style name="search-match"             foreground="background" background="light-grey"/>
+
+  <style name="def:keyword"              foreground="white" bold="true"/>
+  <style name="def:statement"            foreground="white"/>
+  <style name="def:function"             foreground="bat-accent"/>
+  <color name="grey-variant"             value="#A0A0A0"/>
+  <style name="def:decimal"              foreground="grey-variant"/>
+  <style name="def:preprocessor"         foreground="light-grey"/>
+  <style name="def:type"                 foreground="white"/>
+  <style name="def:character"            foreground="light-grey"/>
+  <style name="def:comment"              foreground="comment"/>
+  <style name="def:number"               foreground="grey-variant"/>
+  <style name="def:string"               foreground="mid-grey" italic="true"/>
+  <style name="def:underlined"           italic="true" underline="true"/>
+  <style name="def:note"                 foreground="white" background="background" bold="true"/>
+  <style name="def:error"                foreground="white" background="#330000" bold="true"/>
+  <style name="def:shebang"              foreground="white" bold="true"/>
+  <style name="def:identifier"           foreground="bat-accent" bold="true"/>
+  <style name="def:variable"             foreground="light-grey"/>
+  <style name="def:boolean"              foreground="white" bold="true"/>
+  <style name="def:constant"             foreground="white"/>
+
+  <style name="diff:added-line"          foreground="light-grey"/>
+  <style name="diff:removed-line"        foreground="mid-grey"/>
+  <style name="diff:changed-line"        foreground="white"/>
+
+  <style name="def:heading"              foreground="white" bold="true"/>
+  <style name="def:link-text"            foreground="white" underline="true"/>
+  <style name="def:list-marker"          foreground="white" bold="true"/>
+  
+  <style name="def:heading0" scale="3.0"/>
+  <style name="def:heading1" scale="2.5"/>
+  <style name="def:heading2" scale="2.0"/>
+  <style name="def:heading3" scale="1.7"/>
+  <style name="def:heading4" scale="1.5"/>
+  <style name="def:heading5" scale="1.3"/>
+  <style name="def:heading6" scale="1.2"/>
+</style-scheme>

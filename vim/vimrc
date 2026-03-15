@@ -1,0 +1,23 @@
+" " Vim Configs 
+"
+" Use single double quotation to comment
+"
+set number
+highlight LineNr ctermfg=grey
+set ignorecase
+set smartcase
+"colorscheme lunaperche 
+let g:netrw_home = $HOME . '/.cache/vim'
+let g:netrw_dirhistmax = 0
+
+" Identation Settings
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set smartindent
+
+" pairs well with gotham-noir.theme
+highlight StatusLine ctermbg=234 ctermfg=250 guibg=#1A1A1A guifg=#D9D9D9
+highlight StatusLineNC ctermbg=232 ctermfg=240 guibg=#0D0D0D guifg=#666666

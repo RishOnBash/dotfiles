@@ -1,0 +1,6 @@
+vim/.netrwhist
+*.swp
+*.swo
+.bash_history
+.DS_Store
+Thumbs.db
