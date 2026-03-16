@@ -1,8 +1,8 @@
 ## Custom configs ##
 
 # Checks if rxfetch package exists, if not skip it
-command -v rxfetch >/dev/null 2>&1 && rxfetch
 clear
+command -v rxfetch >/dev/null 2>&1 && rxfetch
 
 # PS1 Prompt
 PS1='\[\e[1;37m\][\[\e[0m\]\W\[\e[1;37m\]] > \[\e[0m\]'
