@@ -9,11 +9,13 @@ PS1='\[\e[1;37m\][\[\e[0m\]\W\[\e[1;37m\]] > \[\e[0m\]'
 #PS1='\[\e[7;37m\] \W \[\e[0m\] \[\e[1;30m\]\[\e[0m\] '
 
 # Environment
-[ -d ~/Desktop/scripts ] && PATH=$PATH:~/Desktop/scripts
+#[ -d ~/Desktop/scripts ] && PATH=$PATH:~/Desktop/scripts
+[ -d ~/GitHub/bash-scripts ] && PATH=$PATH:~/GitHub/bash-scripts
 [ -f ~/.viminfo ] && rm ~/.viminfo
 export BAT_THEME="ansi"
 
 # Shell alias
+alias ..='cd ..'
 alias rm='rm -i'
 alias tree='tree --du -sh'
 alias dots='cd $HOME/GitHub/dotfiles'
