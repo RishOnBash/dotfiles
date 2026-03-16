@@ -1,6 +1,6 @@
 # Dotfiles
 
-A collection of configuration files for a streamlined Linux and Termux environment.
+My config files for Linux and Termux environment.
 
 ## 📂 Repository Structure
 
