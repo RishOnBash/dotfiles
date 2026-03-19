@@ -18,6 +18,7 @@ export BAT_THEME="ansi"
 alias ..='cd ..'
 alias rm='rm -i'
 alias tree='tree --du -sh'
+alias github='cd $HOME/GitHub'
 alias dots='cd $HOME/GitHub/dotfiles'
 alias trees='tree --du -sha'
 alias grep='grep --color=always'
