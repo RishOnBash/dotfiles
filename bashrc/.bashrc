@@ -38,6 +38,7 @@ if command -v git > /dev/null 2>&1; then
     alias gpu='git push -u origin main'
     alias gcu='git clone -u origin main'
     alias gcum='git commit -m'
+    alias gcma='git commit -a -m'
     alias gone='git log --oneline --graph --all'
     alias glog='git log --all --graph'
     alias gmain='git branch -M main'
