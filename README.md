@@ -4,7 +4,8 @@ My config files for Linux and Termux environment.
 
 ## 📂 Repository Structure
 
-- `bashrc/`: Shell configurations (`.bashrc`).
+- `alacritty/`: Alacritty configs (alacritty.toml).
+- `bashrc/`: Shell configs (`.bashrc`).
 - `vim/`: Editor settings (`vimrc`).
 - `colorschemes/`: Themes for the terminal.
 - `styles/`: Themes for the Mousepad text editor.
