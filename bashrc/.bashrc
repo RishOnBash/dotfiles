@@ -1,12 +1,24 @@
 ## Custom configs ##
 
-# Checks if txfetch package exists, if not skip it
+# Checks if txfetch exists, if not skip it
 clear
 command -v txfetch &>/dev/null && txfetch
 
+# Shell options
+shopt -s autocd
+shopt -s cdspell
+shopt -s extglob
+shopt -s dirspell
+shopt -s histappend
+shopt -s histverify
+
+# History options
+HISTSIZE=20000
+HISTFILESIZE=40000
+HISTCONTROL=ignoreboth
+
 # PS1 Prompt
-PS1='\[\e[1;37m\][\[\e[0m\]\W\[\e[1;37m\]] > \[\e[0m\]'
-#PS1='\[\e[7;37m\] \W \[\e[0m\] \[\e[1;30m\]\[\e[0m\] '
+PS1='\[\e[38;5;118m\][\[\e[0m\]\W\[\e[38;5;118m\]] > \[\e[0m\]'
 
 # Environment
 #[ -d ~/Desktop/scripts ] && PATH=$PATH:~/Desktop/scripts
@@ -17,6 +29,7 @@ export BAT_THEME="ansi"
 # Shell alias
 alias ..='cd ..'
 alias rm='rm -i'
+alias ckear='clear'
 alias tree='tree --du -sh'
 alias github='cd $HOME/GitHub'
 alias dots='cd $HOME/GitHub/dotfiles'
