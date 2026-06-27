@@ -26,6 +26,23 @@ PS1='\[\e[38;5;118m\][\[\e[0m\]\W\[\e[38;5;118m\]] > \[\e[0m\]'
 [ -f ~/.viminfo ] && rm ~/.viminfo
 export BAT_THEME="ansi"
 
+# Color support in less
+# (stole from: github.com/bahamas10/dotfiles)
+export LESS_TERMCAP_mb=$'\e[1;36m'
+export LESS_TERMCAP_md=$'\e[1;36m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[7;49;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[4;1;32m'
+export LESS_TERMCAP_mr=$'\e[7m'
+export LESS_TERMCAP_mh=$'\e[2m'
+export LESS_TERMCAP_ZN=$'\e[74m'
+export LESS_TERMCAP_ZV=$'\e[75m'
+export LESS_TERMCAP_ZO=$'\e[73m'
+export LESS_TERMCAP_ZW=$'\e[75m'
+export MANPAGER='less'
+
 # Shell alias
 alias ..='cd ..'
 alias rm='rm -i'
